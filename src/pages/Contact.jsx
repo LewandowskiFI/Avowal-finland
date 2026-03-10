@@ -30,11 +30,35 @@ export const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const [result, setResult] = useState('');
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    // Submit logic here (e.g., email service or backend API)
-    alert("Kiitos yhteydenotostasi! Palaamme asiaan mahdollisimman pian.");
+    setResult('sending');
+
+    const data = new FormData();
+    data.append('access_key', '4d481c64-9b23-43ae-87cf-2850946a9b7d');
+    data.append('name', formData.name);
+    data.append('email', formData.email);
+    data.append('phone', formData.phone);
+    data.append('service', formData.service);
+    data.append('date', formData.date);
+    data.append('location', formData.location);
+    data.append('message', formData.additionalInfo);
+    data.append('subject', `Uusi yhteydenotto: ${formData.service || 'Avowal Finland'}`);
+
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: data
+    });
+    const json = await response.json();
+
+    if (json.success) {
+      setResult('success');
+      setFormData({ name: '', phone: '', email: '', service: '', date: '', location: '', additionalInfo: '' });
+    } else {
+      setResult('error');
+    }
   };
 
   const servicesList = [
@@ -180,9 +204,20 @@ export const Contact = () => {
               ></textarea>
             </div>
 
-            <div className="pt-6 text-center">
-              <Button type="submit" variant="primary" className="w-full md:w-auto md:px-16 py-4">
-                Lähetä yhteydenotto
+            <div className="pt-6 text-center space-y-4">
+              {result === 'success' && (
+                <p className="text-brand-emerald font-sans text-sm">✓ Kiitos yhteydenotostasi! Palaamme asiaan mahdollisimman pian.</p>
+              )}
+              {result === 'error' && (
+                <p className="text-red-500 font-sans text-sm">Viestin lähetys epäonnistui. Yritä uudelleen tai ota yhteyttä sähköpostitse.</p>
+              )}
+              <Button
+                type="submit"
+                variant="primary"
+                className="w-full md:w-auto md:px-16 py-4"
+                disabled={result === 'sending'}
+              >
+                {result === 'sending' ? 'Lähetetään...' : 'Lähetä yhteydenotto'}
               </Button>
             </div>
           </form>
