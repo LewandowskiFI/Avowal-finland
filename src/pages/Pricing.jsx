@@ -21,10 +21,10 @@ export const Pricing = () => {
       price: "3500€",
       description: "Päivän Koordinointi. Hoidit varaukset, me pidämme huolen että itse h-hetkellä kaikki sujuu suunnitellusti.",
       features: [
-        "Kaikki Basic-paketin edut",
-        "Yksityiskohtainen aikataulutus",
-        "Tavarantoimittajien koordinointi",
-        "Pääsuunnittelija paikalla 4h"
+        "Kaikki basic -palvelun edut",
+        "Kaikkien varausten ja järjestelyjen hoitaminen",
+        "Premium-somistus",
+        "Tuki kosintapäivänä"
       ]
     },
     {
@@ -32,11 +32,11 @@ export const Pricing = () => {
       price: "alkaen 5500€",
       description: "Täyden Palvelun Kosinta. Avaimet käteen -ratkaisu. Suunnittelemme, varaamme, somistamme ja koordinoimme kaiken.",
       features: [
-        "Rajaton suunnittelutuki",
-        "Kaikkien varausten hoitaminen",
-        "Yksilöllinen premium-somistus",
-        "Valokuvaajan varaaminen",
-        "Pääsuunnittelija paikalla koko päivän"
+        "Rajaton suunnittelu ja ideointi",
+        "Kaikkien varausten ja järjestelyjen hoitaminen",
+        "Exclusive-somistus",
+        "Valokuvaus ja kuvien editointi",
+        "Täysi tuki kosintapäivänä"
       ]
     }
   ];

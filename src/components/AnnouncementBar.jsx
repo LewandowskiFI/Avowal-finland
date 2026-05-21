@@ -8,7 +8,7 @@ export const AnnouncementBar = () => {
         {[...Array(4)].map((_, i) => (
           <div key={i} className="flex items-center shrink-0 pr-8">
             <span className="text-xs md:text-sm font-sans uppercase tracking-[0.2em] font-bold">
-              Vuoden 2026 ja 2027 varaukset tehdään nyt! – Kevätalennus -15% kaikista varauksista!
+              Vuoden 2026 ja 2027 varaukset tehdään nyt!
             </span>
             <span className="mx-8 opacity-50">•</span>
           </div>

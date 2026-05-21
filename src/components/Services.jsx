@@ -7,7 +7,7 @@ const services = [
   {
     title: "Täyden Palvelun Kosinta",
     description: "Huolehdimme kaikesta – suunnittelusta, varauksista, somistuksesta ja aikataulutuksesta. Saavut vain paikalle ja nautit unohtumattomasta hetkestäsi.",
-    image: "/valokuvat/Kosintakuvat-033-9641.jpg"
+    image: "/valokuvat/Kosintakuvat-001-9490.jpg"
   },
   {
     title: "Konsultaatio & Ideointi",
@@ -83,7 +83,7 @@ export const Services = () => {
                     window.scrollTo(0, 0);
                   }}
                 >
-                  Osta nyt
+                  Tutustu ja varaa
                 </Button>
               </div>
             </motion.div>

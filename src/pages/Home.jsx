@@ -2,6 +2,7 @@ import React from 'react';
 import { Hero } from '../components/Hero';
 import { About } from '../components/About';
 import { Services } from '../components/Services';
+import { FAQ } from '../components/FAQ';
 import { Instagram } from '../components/Instagram';
 
 export const Home = () => {
@@ -10,6 +11,7 @@ export const Home = () => {
       <Hero />
       <About />
       <Services />
+      <FAQ />
       <Instagram />
     </main>
   );

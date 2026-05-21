@@ -65,7 +65,6 @@ export const Contact = () => {
     "Konsultaatio & Ideointi (Basic)",
     "Päivän Koordinointi (Premium)",
     "Täyden Palvelun Kosinta (Exclusive)",
-    "Täyden Palvelun Kosinta", // Matches Services block title
     "Muokattu palvelu / Muu"
   ];
 

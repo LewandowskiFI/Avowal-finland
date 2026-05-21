@@ -24,7 +24,7 @@ export const Hero = () => {
           transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
           className="text-brand-champagne text-sm uppercase tracking-[0.3em] font-medium mb-6"
         >
-          Klassista Eleganssia & Unohtumattomia Hetkiä
+          Kosintapalvelu
         </motion.p>
 
         <motion.h1
@@ -33,8 +33,8 @@ export const Hero = () => {
           transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
           className="text-5xl md:text-7xl lg:text-8xl font-serif text-brand-white mb-8 leading-tight drop-shadow-md"
         >
-          Elämän Pituisia <br />
-          <span className="italic text-brand-champagne">Kysymyksiä</span> Varten
+          Suunnittelemme ja toteutamme <br />
+          <span className="italic text-brand-champagne">kosinnan puolestasi</span>
         </motion.h1>
 
         <motion.div
@@ -50,7 +50,7 @@ export const Hero = () => {
               window.scrollTo(0, 0);
             }}
           >
-            Osta nyt
+            Tutustu ja varaa
           </Button>
         </motion.div>
       </div>

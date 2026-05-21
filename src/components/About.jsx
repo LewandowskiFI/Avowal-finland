@@ -37,19 +37,19 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-serif text-brand-charcoal mb-10 leading-snug">
-              Suomalaista rakkautta,<br />
-              <span className="italic text-brand-emerald">Ajatonta Eleganssia</span>
+              Unohtumattomia kosintoja,<br />
+              <span className="italic text-brand-emerald">ilman stressiä</span>
             </h2>
 
             <div className="space-y-6 text-brand-charcoal/80 font-sans leading-relaxed text-lg">
               <p>
-                Avowal Finland syntyi intohimosta luoda taianomaisia hetkiä, jotka säilyvät muistoissa läpi elämän. Uskomme, että jokainen rakkaustarina on ainutlaatuinen ja ansaitsee tulla koetuksi juuri sille kuuluvalla arvokkuudella.
+                Avowal syntyi tarpeesta luoda unohtumattomia hetkiä. Haluamme olla muuttamassa suomalaista kosintakulttuuria ja tehdä kosinnasta sujuvampaa sekä stressitöntä. Uskomme, että jokainen rakkaustarina on ainutlaatuinen ja ansaitsee tulla koetuksi juuri sille kuuluvalla arvokkuudella.
               </p>
               <p>
-                Yhdistämme klassisen tyylikkyyden, ensiluokkaisen suomalaisen osaamisen ja hienotunteisen palvelun. Suunnittelemme kanssasi kosinnan, joka heijastaa teidän tarinaanne – täydellisesti järjestettynä, aina loppuun asti hiottuna.
+                Yhdistämme klassisen tyylikkyyden, ensiluokkaisen suomalaisen osaamisen ja hienotunteisen palvelun. Suunnittelemme kanssasi kosinnan, joka heijastaa teidän tarinaanne. Haluamme järjestää hiotun elämyksen.
               </p>
               <p>
-                Me toteutamme visiosi luottamuksella, jotta voitte keskittyä ainoastaan kaikkein tärkeimpään: toisiinne.
+                Me toteutamme visiosi luottamuksella, jotta voitte keskittyä ainoastaan kaikkien tärkeimpään: toisiinne.
               </p>
             </div>
 
