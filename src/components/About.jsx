@@ -60,13 +60,10 @@ export const About = () => {
               transition={{ duration: 1, delay: 0.5 }}
               className="mt-12"
             >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Signature_Placeholder.svg/1024px-Signature_Placeholder.svg.png"
-                alt="Founder Signature"
-                className="h-12 opacity-40 hover:opacity-70 transition-opacity invert sepia-[0.5] hue-rotate-[160deg] saturate-[300%] brightness-[0.5]"
-                style={{ filter: "brightness(0) saturate(100%) invert(20%) sepia(21%) saturate(546%) hue-rotate(309deg) brightness(97%) contrast(92%)" }}
-              />
-              <p className="mt-4 text-xs tracking-widest uppercase text-brand-charcoal/50">Perustajat, Avowal Finland</p>
+              <div className="font-['Great_Vibes'] text-5xl md:text-6xl text-brand-charcoal mb-4 opacity-90 -rotate-2">
+                Krista ja Hanna
+              </div>
+              <p className="text-xs tracking-widest uppercase text-brand-charcoal/50">Perustajat, Avowal Finland</p>
             </motion.div>
           </motion.div>
 
