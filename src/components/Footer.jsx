@@ -49,7 +49,10 @@ export const Footer = () => {
             <a href="https://www.instagram.com/avowalfinland" target="_blank" rel="noopener noreferrer" className="text-brand-champagne/70 hover:text-brand-white transition-colors text-sm">
               Instagram
             </a>
-            <a href="mailto:info@avowalfinland.fi" className="text-brand-champagne/70 hover:text-brand-white transition-colors text-sm">
+            <a href="https://www.tiktok.com/@avowal.finland?_r=1&_t=ZN-96YY7jcovY6" target="_blank" rel="noopener noreferrer" className="text-brand-champagne/70 hover:text-brand-white transition-colors text-sm">
+              TikTok
+            </a>
+            <a href="mailto:avowalfinland@gmail.com" className="text-brand-champagne/70 hover:text-brand-white transition-colors text-sm">
               avowalfinland@gmail.com
             </a>
           </div>
