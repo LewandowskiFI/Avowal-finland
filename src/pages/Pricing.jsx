@@ -7,7 +7,7 @@ export const Pricing = () => {
   const packages = [
     {
       name: "Basic",
-      price: "1500€",
+      price: "499€",
       description: "Konsultaatio ja Ideointi. Täydellinen sinulle, joka haluat järjestää itse, mutta kaipaat asiantuntijan näkemystä.",
       features: [
         "1h aloituspalaveri",
@@ -18,7 +18,7 @@ export const Pricing = () => {
     },
     {
       name: "Premium",
-      price: "3500€",
+      price: "2499€",
       description: "Päivän Koordinointi. Hoidit varaukset, me pidämme huolen että itse h-hetkellä kaikki sujuu suunnitellusti.",
       features: [
         "Kaikki basic -palvelun edut",
@@ -29,7 +29,7 @@ export const Pricing = () => {
     },
     {
       name: "Exclusive",
-      price: "alkaen 5500€",
+      price: "alkaen 4499€",
       description: "Täyden Palvelun Kosinta. Avaimet käteen -ratkaisu. Suunnittelemme, varaamme, somistamme ja koordinoimme kaiken.",
       features: [
         "Rajaton suunnittelu ja ideointi",
