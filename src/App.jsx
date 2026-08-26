@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Navbar } from './components/Navbar';
 import { AnnouncementBar } from './components/AnnouncementBar';
 import { Footer } from './components/Footer';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/yhteystiedot" element={<Contact />} />
         </Routes>
         <Footer />
+        <SpeedInsights />
       </div>
     </Router>
   );
