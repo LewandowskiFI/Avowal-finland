@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar';
 import { AnnouncementBar } from './components/AnnouncementBar';
 import { Footer } from './components/Footer';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/yhteystiedot" element={<Contact />} />
         </Routes>
         <Footer />
+        <Analytics />
       </div>
     </Router>
   );
